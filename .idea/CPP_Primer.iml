@@ -5,6 +5,11 @@
       <sourceFolder url="file://$MODULE_DIR$/CMakeLists.txt" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Chapter 1/part1.cpp" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Chapter 1/part1.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Chapter 2/Sales_data.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Chapter 2/part1.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Chapter 2/part1.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Chapter 3/text.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Chapter 3/text.h" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/main.cpp" isTestSource="false" />
     </content>
     <orderEntry type="inheritedJdk" />
