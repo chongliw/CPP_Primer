@@ -10,6 +10,12 @@
       <sourceFolder url="file://$MODULE_DIR$/Chapter 2/part1.h" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Chapter 3/text.cpp" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Chapter 3/text.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/ch04.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/ch04.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/ch05.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/ch05.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/ch08.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/ch08.h" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/main.cpp" isTestSource="false" />
     </content>
     <orderEntry type="inheritedJdk" />
