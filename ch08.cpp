@@ -11,10 +11,10 @@
 
 using namespace std;
 
-istream& test(istream& is) {
+istream &test(istream &is) {
     int i;
     int sum = 0;
-    while(is >> i)
+    while (is >> i)
         sum += i;
     return is;
 }
@@ -25,7 +25,7 @@ void ex08_01() {
         sum += i;
     cout << sum << endl;
 
-    istream& is = test(cin);
+    istream &is = test(cin);
     cout << is.rdstate() << endl; // try input: 1 output: 0, input: s output: 4
 }
 
@@ -55,9 +55,9 @@ void text08_fstream(char *argv1, char *argv2) {
     vector<string> lines1;
     input.open(argv1);
     output.open(argv2, ofstream::app);
-    while(input >> str)
+    while (input >> str)
         lines1.push_back(str);
-    for(string str: lines1)
+    for (string &str: lines1)
         output << str << endl;
 }
 
@@ -65,25 +65,26 @@ struct PhoneNum {
     string name;
     vector<string> nums;
 };
+
 void text08_stringstream(char *argv1, char *argv2) {
     ifstream input(argv1);
     ofstream output(argv2);
     string line;
     vector<PhoneNum> phone_nums;
-    while(getline(input, line)) {
+    while (getline(input, line)) {
         istringstream input_person(line);
         PhoneNum phones;
         input_person >> phones.name;
         string num;
-        while(input_person >> num)
+        while (input_person >> num)
             phones.nums.push_back(num);
         phone_nums.push_back(phones);
     }
     input.close();
-    for(const auto &phones: phone_nums) {
+    for (const auto &phones: phone_nums) {
         ostringstream person;
         person << phones.name << ": ";
-        for(const auto &phone: phones.nums)
+        for (const auto &phone: phones.nums)
             person << phone << ", ";
         output << person.str() << endl;
     }

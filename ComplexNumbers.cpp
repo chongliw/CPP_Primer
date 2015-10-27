@@ -95,7 +95,7 @@ Complex1 test_call(Complex1 z1) {
 int main() {
     Complex1 z1(1, 1);
     Complex1 z2(2, 3);
-    Complex1 z = z1;
-    Complex1 z3 = test_call(z);
-    cout << z3 << endl;
+    cout << "cool";
+    cout << "nice";
+    cout << 1 + z1 << endl;
 }
