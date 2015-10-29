@@ -12,7 +12,7 @@ public:
     String(const char *_str) {
         str = new char[strlen(_str) + 1];
         strcpy(str, _str);
-    };
+    }
     String& operator=(const String&);
     ~String() {
         delete[] str;
